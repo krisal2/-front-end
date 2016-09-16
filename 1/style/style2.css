@@ -87,13 +87,21 @@ ul.menu li {
 }
 
 .button.primary {
-  background-color: blue;
+  background-color: #1b6396;
 }
 
 .button.success {
-  background-color: green;
+  background-color: #dd426b;
 }
 
-.button.alert {
-  background-color: yellow;
+.button.warning {
+  background-color: #ffaa42;
+}
+
+.button.danger {
+  background-color: #ef5347;
+}
+
+.button.info {
+  background-color: #ffc74f;
 }
