@@ -1,0 +1,99 @@
+/*
+elemeto-padre
+  overflow: hidden;
+
+elemento-hijo
+  float: left;
+*/
+
+body {
+  font: 15px arial;
+  color: gray;
+}
+
+.top {
+  border-bottom: 1px solid black;
+  overflow: hidden;
+}
+
+.d-left {
+  float: left;
+}
+
+.d-right {
+  float: right;
+}
+
+.bar-menu {
+  background: #E0E0E0;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+}
+
+.bar-left,
+.bar-right {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bar-left a,
+.bar-right a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.bar-left a:hover,
+.bar-right a:hover {
+  background: rgba(0, 0, 0, .2);
+  color: black;
+}
+
+.bar-left li {
+  border-right: 1px solid black;
+  float: left;
+}
+
+.bar-right li {
+  float: left;
+}
+
+ul.menu{
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  position: relative;
+}
+ul.menu li {
+  float: left;
+  padding: 15px;
+  position: relative;
+}
+
+
+
+.button {
+  background: gray;
+  color: black;
+  cursor: pointer;
+  border: none;
+  font-size: 1em;
+  padding: 15px 40px;
+  margin: 0;
+  text-decoration: none;
+}
+
+.button.primary {
+  background-color: blue;
+}
+
+.button.success {
+  background-color: green;
+}
+
+.button.alert {
+  background-color: yellow;
+}

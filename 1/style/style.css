@@ -1,0 +1,32 @@
+body {
+  font: 15px arial;
+  color: gray
+}
+
+div.top {
+  border-bottom: 1px solid #E5E5E5;
+  height: 40px;
+  position: relative;
+}
+
+ul.bar-left,.bar-right {
+  list-style: none;
+  overflow: hidden;
+  position: absolute;
+  margin: 0
+}
+
+ul.bar-right {
+  right: 80%;
+}
+
+ul.bar-left li {
+  float: left;
+  padding: 10px;
+
+}
+
+ul.bar-right li {
+  float: right;
+  padding: 10px;
+}
