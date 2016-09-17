@@ -77,7 +77,7 @@ ul.menu li {
 
 .button {
   background: gray;
-  color: black;
+  color: white;
   cursor: pointer;
   border: none;
   font-size: 1em;
@@ -86,22 +86,46 @@ ul.menu li {
   text-decoration: none;
 }
 
+.button:hover {
+  background: rgba(0,0,0,.4);
+}
+
 .button.primary {
   background-color: #1b6396;
+}
+
+.button.primary:hover {
+  background: rgba(27,99,150,.8);
 }
 
 .button.success {
   background-color: #dd426b;
 }
 
+.button.success:hover {
+  background-color: rgba(221,66,107,.8);
+}
+
 .button.warning {
   background-color: #ffaa42;
+}
+
+.button.warning:hover {
+  background-color: rgba(255,170,66,.8);
 }
 
 .button.danger {
   background-color: #ef5347;
 }
 
+.button.danger:hover {
+  background-color: rgba(239,83,71,.8);
+}
+
 .button.info {
   background-color: #ffc74f;
+}
+
+.button.info:hover {
+  background-color:rgba(255,199,79,.8);
 }
